@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://cevez16.github.io/Atur-Duit-Kuy",
   "private": true,
-  "dependencies":
+  "dependencies": {
     "firebase": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,5 +14,23 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

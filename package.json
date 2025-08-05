@@ -1,8 +1,9 @@
 {
   "name": "finance-tracker-app",
   "version": "1.0.0",
+  "homepage": "https://cevez16.github.io/Atur-Duit-Kuy",
   "private": true,
-  "dependencies": {
+  "dependencies":
     "firebase": "^10.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
